@@ -1,3 +1,7 @@
 #!/bin/bash
-make build-x86
+set -e
+
+# make clean
+make build
 qemu-system-x86_64 -cdrom dist/kernel.iso
+

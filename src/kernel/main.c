@@ -1,13 +1,21 @@
-#include "tty.h"
+#include "gdt.h"
+#include "idt.h"
+#include "isr.h"
+#include "keyboard.h"
 
-void kernel_main()
+#define U64(a) (*(uint64_t*)(&a)) 
+
+void kernel_main(gdt_descriptor* gdt_addr)
 {
     tty_clear();
-    tty_colour(YELLOW, BLUE);
-    puts("1\n2\n3\n4\n5\n");
-    tty_colour(MAGENTA, WHITE);
-    puts("6\n7\n8\n9\n10\n11\n12\n13\n14\n");
-    puts("15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26");
+    tty_colour(YELLOW, BLACK);
+    
+    load_idt(&IDT_Descriptor);
+    fill_idt();
 
+    initps2();
+    
+    asm("cli\nhlt\n");
+    printf("exited halt (somehow?)\n");
     for(;;);
 }

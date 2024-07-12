@@ -11,8 +11,7 @@ long_mode_start:
 	mov fs, ax
 	mov gs, ax
     
-	; mov dword [0xb8000], 0x2f4b2f4f
-
+    pop rdi        ; Passing GDT descriptor struct pointer
 	call kernel_main
 
 .halt:

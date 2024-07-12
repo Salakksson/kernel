@@ -1,0 +1,770 @@
+assembly:
+ISR_NOERROR 0
+ISR_NOERROR 1
+ISR_NOERROR 2
+ISR_NOERROR 3
+ISR_NOERROR 4
+ISR_NOERROR 5
+ISR_NOERROR 6
+ISR_NOERROR 7
+ISR_ERROR 8
+ISR_NOERROR 9
+ISR_ERROR 10
+ISR_ERROR 11
+ISR_ERROR 12
+ISR_ERROR 13
+ISR_ERROR 14
+ISR_NOERROR 15
+ISR_NOERROR 16
+ISR_ERROR 17
+ISR_NOERROR 18
+ISR_NOERROR 19
+ISR_NOERROR 20
+ISR_ERROR 21
+ISR_NOERROR 22
+ISR_NOERROR 23
+ISR_NOERROR 24
+ISR_NOERROR 25
+ISR_NOERROR 26
+ISR_NOERROR 27
+ISR_NOERROR 28
+ISR_ERROR 29
+ISR_ERROR 30
+ISR_NOERROR 31
+ISR_NOERROR 32
+ISR_NOERROR 33
+ISR_NOERROR 34
+ISR_NOERROR 35
+ISR_NOERROR 36
+ISR_NOERROR 37
+ISR_NOERROR 38
+ISR_NOERROR 39
+ISR_NOERROR 40
+ISR_NOERROR 41
+ISR_NOERROR 42
+ISR_NOERROR 43
+ISR_NOERROR 44
+ISR_NOERROR 45
+ISR_NOERROR 46
+ISR_NOERROR 47
+ISR_NOERROR 48
+ISR_NOERROR 49
+ISR_NOERROR 50
+ISR_NOERROR 51
+ISR_NOERROR 52
+ISR_NOERROR 53
+ISR_NOERROR 54
+ISR_NOERROR 55
+ISR_NOERROR 56
+ISR_NOERROR 57
+ISR_NOERROR 58
+ISR_NOERROR 59
+ISR_NOERROR 60
+ISR_NOERROR 61
+ISR_NOERROR 62
+ISR_NOERROR 63
+ISR_NOERROR 64
+ISR_NOERROR 65
+ISR_NOERROR 66
+ISR_NOERROR 67
+ISR_NOERROR 68
+ISR_NOERROR 69
+ISR_NOERROR 70
+ISR_NOERROR 71
+ISR_NOERROR 72
+ISR_NOERROR 73
+ISR_NOERROR 74
+ISR_NOERROR 75
+ISR_NOERROR 76
+ISR_NOERROR 77
+ISR_NOERROR 78
+ISR_NOERROR 79
+ISR_NOERROR 80
+ISR_NOERROR 81
+ISR_NOERROR 82
+ISR_NOERROR 83
+ISR_NOERROR 84
+ISR_NOERROR 85
+ISR_NOERROR 86
+ISR_NOERROR 87
+ISR_NOERROR 88
+ISR_NOERROR 89
+ISR_NOERROR 90
+ISR_NOERROR 91
+ISR_NOERROR 92
+ISR_NOERROR 93
+ISR_NOERROR 94
+ISR_NOERROR 95
+ISR_NOERROR 96
+ISR_NOERROR 97
+ISR_NOERROR 98
+ISR_NOERROR 99
+ISR_NOERROR 100
+ISR_NOERROR 101
+ISR_NOERROR 102
+ISR_NOERROR 103
+ISR_NOERROR 104
+ISR_NOERROR 105
+ISR_NOERROR 106
+ISR_NOERROR 107
+ISR_NOERROR 108
+ISR_NOERROR 109
+ISR_NOERROR 110
+ISR_NOERROR 111
+ISR_NOERROR 112
+ISR_NOERROR 113
+ISR_NOERROR 114
+ISR_NOERROR 115
+ISR_NOERROR 116
+ISR_NOERROR 117
+ISR_NOERROR 118
+ISR_NOERROR 119
+ISR_NOERROR 120
+ISR_NOERROR 121
+ISR_NOERROR 122
+ISR_NOERROR 123
+ISR_NOERROR 124
+ISR_NOERROR 125
+ISR_NOERROR 126
+ISR_NOERROR 127
+ISR_NOERROR 128
+ISR_NOERROR 129
+ISR_NOERROR 130
+ISR_NOERROR 131
+ISR_NOERROR 132
+ISR_NOERROR 133
+ISR_NOERROR 134
+ISR_NOERROR 135
+ISR_NOERROR 136
+ISR_NOERROR 137
+ISR_NOERROR 138
+ISR_NOERROR 139
+ISR_NOERROR 140
+ISR_NOERROR 141
+ISR_NOERROR 142
+ISR_NOERROR 143
+ISR_NOERROR 144
+ISR_NOERROR 145
+ISR_NOERROR 146
+ISR_NOERROR 147
+ISR_NOERROR 148
+ISR_NOERROR 149
+ISR_NOERROR 150
+ISR_NOERROR 151
+ISR_NOERROR 152
+ISR_NOERROR 153
+ISR_NOERROR 154
+ISR_NOERROR 155
+ISR_NOERROR 156
+ISR_NOERROR 157
+ISR_NOERROR 158
+ISR_NOERROR 159
+ISR_NOERROR 160
+ISR_NOERROR 161
+ISR_NOERROR 162
+ISR_NOERROR 163
+ISR_NOERROR 164
+ISR_NOERROR 165
+ISR_NOERROR 166
+ISR_NOERROR 167
+ISR_NOERROR 168
+ISR_NOERROR 169
+ISR_NOERROR 170
+ISR_NOERROR 171
+ISR_NOERROR 172
+ISR_NOERROR 173
+ISR_NOERROR 174
+ISR_NOERROR 175
+ISR_NOERROR 176
+ISR_NOERROR 177
+ISR_NOERROR 178
+ISR_NOERROR 179
+ISR_NOERROR 180
+ISR_NOERROR 181
+ISR_NOERROR 182
+ISR_NOERROR 183
+ISR_NOERROR 184
+ISR_NOERROR 185
+ISR_NOERROR 186
+ISR_NOERROR 187
+ISR_NOERROR 188
+ISR_NOERROR 189
+ISR_NOERROR 190
+ISR_NOERROR 191
+ISR_NOERROR 192
+ISR_NOERROR 193
+ISR_NOERROR 194
+ISR_NOERROR 195
+ISR_NOERROR 196
+ISR_NOERROR 197
+ISR_NOERROR 198
+ISR_NOERROR 199
+ISR_NOERROR 200
+ISR_NOERROR 201
+ISR_NOERROR 202
+ISR_NOERROR 203
+ISR_NOERROR 204
+ISR_NOERROR 205
+ISR_NOERROR 206
+ISR_NOERROR 207
+ISR_NOERROR 208
+ISR_NOERROR 209
+ISR_NOERROR 210
+ISR_NOERROR 211
+ISR_NOERROR 212
+ISR_NOERROR 213
+ISR_NOERROR 214
+ISR_NOERROR 215
+ISR_NOERROR 216
+ISR_NOERROR 217
+ISR_NOERROR 218
+ISR_NOERROR 219
+ISR_NOERROR 220
+ISR_NOERROR 221
+ISR_NOERROR 222
+ISR_NOERROR 223
+ISR_NOERROR 224
+ISR_NOERROR 225
+ISR_NOERROR 226
+ISR_NOERROR 227
+ISR_NOERROR 228
+ISR_NOERROR 229
+ISR_NOERROR 230
+ISR_NOERROR 231
+ISR_NOERROR 232
+ISR_NOERROR 233
+ISR_NOERROR 234
+ISR_NOERROR 235
+ISR_NOERROR 236
+ISR_NOERROR 237
+ISR_NOERROR 238
+ISR_NOERROR 239
+ISR_NOERROR 240
+ISR_NOERROR 241
+ISR_NOERROR 242
+ISR_NOERROR 243
+ISR_NOERROR 244
+ISR_NOERROR 245
+ISR_NOERROR 246
+ISR_NOERROR 247
+ISR_NOERROR 248
+ISR_NOERROR 249
+ISR_NOERROR 250
+ISR_NOERROR 251
+ISR_NOERROR 252
+ISR_NOERROR 253
+ISR_NOERROR 254
+ISR_NOERROR 255
+c:
+void isr0();
+void isr1();
+void isr2();
+void isr3();
+void isr4();
+void isr5();
+void isr6();
+void isr7();
+void isr8();
+void isr9();
+void isr10();
+void isr11();
+void isr12();
+void isr13();
+void isr14();
+void isr15();
+void isr16();
+void isr17();
+void isr18();
+void isr19();
+void isr20();
+void isr21();
+void isr22();
+void isr23();
+void isr24();
+void isr25();
+void isr26();
+void isr27();
+void isr28();
+void isr29();
+void isr30();
+void isr31();
+void isr32();
+void isr33();
+void isr34();
+void isr35();
+void isr36();
+void isr37();
+void isr38();
+void isr39();
+void isr40();
+void isr41();
+void isr42();
+void isr43();
+void isr44();
+void isr45();
+void isr46();
+void isr47();
+void isr48();
+void isr49();
+void isr50();
+void isr51();
+void isr52();
+void isr53();
+void isr54();
+void isr55();
+void isr56();
+void isr57();
+void isr58();
+void isr59();
+void isr60();
+void isr61();
+void isr62();
+void isr63();
+void isr64();
+void isr65();
+void isr66();
+void isr67();
+void isr68();
+void isr69();
+void isr70();
+void isr71();
+void isr72();
+void isr73();
+void isr74();
+void isr75();
+void isr76();
+void isr77();
+void isr78();
+void isr79();
+void isr80();
+void isr81();
+void isr82();
+void isr83();
+void isr84();
+void isr85();
+void isr86();
+void isr87();
+void isr88();
+void isr89();
+void isr90();
+void isr91();
+void isr92();
+void isr93();
+void isr94();
+void isr95();
+void isr96();
+void isr97();
+void isr98();
+void isr99();
+void isr100();
+void isr101();
+void isr102();
+void isr103();
+void isr104();
+void isr105();
+void isr106();
+void isr107();
+void isr108();
+void isr109();
+void isr110();
+void isr111();
+void isr112();
+void isr113();
+void isr114();
+void isr115();
+void isr116();
+void isr117();
+void isr118();
+void isr119();
+void isr120();
+void isr121();
+void isr122();
+void isr123();
+void isr124();
+void isr125();
+void isr126();
+void isr127();
+void isr128();
+void isr129();
+void isr130();
+void isr131();
+void isr132();
+void isr133();
+void isr134();
+void isr135();
+void isr136();
+void isr137();
+void isr138();
+void isr139();
+void isr140();
+void isr141();
+void isr142();
+void isr143();
+void isr144();
+void isr145();
+void isr146();
+void isr147();
+void isr148();
+void isr149();
+void isr150();
+void isr151();
+void isr152();
+void isr153();
+void isr154();
+void isr155();
+void isr156();
+void isr157();
+void isr158();
+void isr159();
+void isr160();
+void isr161();
+void isr162();
+void isr163();
+void isr164();
+void isr165();
+void isr166();
+void isr167();
+void isr168();
+void isr169();
+void isr170();
+void isr171();
+void isr172();
+void isr173();
+void isr174();
+void isr175();
+void isr176();
+void isr177();
+void isr178();
+void isr179();
+void isr180();
+void isr181();
+void isr182();
+void isr183();
+void isr184();
+void isr185();
+void isr186();
+void isr187();
+void isr188();
+void isr189();
+void isr190();
+void isr191();
+void isr192();
+void isr193();
+void isr194();
+void isr195();
+void isr196();
+void isr197();
+void isr198();
+void isr199();
+void isr200();
+void isr201();
+void isr202();
+void isr203();
+void isr204();
+void isr205();
+void isr206();
+void isr207();
+void isr208();
+void isr209();
+void isr210();
+void isr211();
+void isr212();
+void isr213();
+void isr214();
+void isr215();
+void isr216();
+void isr217();
+void isr218();
+void isr219();
+void isr220();
+void isr221();
+void isr222();
+void isr223();
+void isr224();
+void isr225();
+void isr226();
+void isr227();
+void isr228();
+void isr229();
+void isr230();
+void isr231();
+void isr232();
+void isr233();
+void isr234();
+void isr235();
+void isr236();
+void isr237();
+void isr238();
+void isr239();
+void isr240();
+void isr241();
+void isr242();
+void isr243();
+void isr244();
+void isr245();
+void isr246();
+void isr247();
+void isr248();
+void isr249();
+void isr250();
+void isr251();
+void isr252();
+void isr253();
+void isr254();
+void isr255();
+fill_idt_entry(0, isr0, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(1, isr1, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(2, isr2, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(3, isr3, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(4, isr4, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(5, isr5, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(6, isr6, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(7, isr7, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(8, isr8, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(9, isr9, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(10, isr10, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(11, isr11, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(12, isr12, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(13, isr13, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(14, isr14, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(15, isr15, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(16, isr16, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(17, isr17, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(18, isr18, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(19, isr19, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(20, isr20, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(21, isr21, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(22, isr22, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(23, isr23, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(24, isr24, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(25, isr25, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(26, isr26, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(27, isr27, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(28, isr28, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(29, isr29, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(30, isr30, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(31, isr31, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(32, isr32, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(33, isr33, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(34, isr34, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(35, isr35, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(36, isr36, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(37, isr37, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(38, isr38, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(39, isr39, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(40, isr40, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(41, isr41, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(42, isr42, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(43, isr43, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(44, isr44, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(45, isr45, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(46, isr46, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(47, isr47, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(48, isr48, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(49, isr49, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(50, isr50, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(51, isr51, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(52, isr52, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(53, isr53, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(54, isr54, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(55, isr55, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(56, isr56, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(57, isr57, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(58, isr58, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(59, isr59, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(60, isr60, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(61, isr61, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(62, isr62, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(63, isr63, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(64, isr64, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(65, isr65, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(66, isr66, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(67, isr67, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(68, isr68, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(69, isr69, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(70, isr70, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(71, isr71, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(72, isr72, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(73, isr73, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(74, isr74, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(75, isr75, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(76, isr76, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(77, isr77, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(78, isr78, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(79, isr79, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(80, isr80, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(81, isr81, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(82, isr82, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(83, isr83, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(84, isr84, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(85, isr85, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(86, isr86, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(87, isr87, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(88, isr88, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(89, isr89, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(90, isr90, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(91, isr91, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(92, isr92, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(93, isr93, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(94, isr94, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(95, isr95, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(96, isr96, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(97, isr97, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(98, isr98, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(99, isr99, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(100, isr100, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(101, isr101, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(102, isr102, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(103, isr103, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(104, isr104, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(105, isr105, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(106, isr106, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(107, isr107, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(108, isr108, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(109, isr109, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(110, isr110, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(111, isr111, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(112, isr112, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(113, isr113, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(114, isr114, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(115, isr115, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(116, isr116, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(117, isr117, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(118, isr118, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(119, isr119, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(120, isr120, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(121, isr121, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(122, isr122, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(123, isr123, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(124, isr124, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(125, isr125, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(126, isr126, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(127, isr127, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(128, isr128, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(129, isr129, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(130, isr130, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(131, isr131, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(132, isr132, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(133, isr133, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(134, isr134, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(135, isr135, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(136, isr136, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(137, isr137, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(138, isr138, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(139, isr139, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(140, isr140, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(141, isr141, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(142, isr142, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(143, isr143, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(144, isr144, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(145, isr145, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(146, isr146, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(147, isr147, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(148, isr148, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(149, isr149, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(150, isr150, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(151, isr151, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(152, isr152, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(153, isr153, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(154, isr154, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(155, isr155, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(156, isr156, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(157, isr157, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(158, isr158, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(159, isr159, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(160, isr160, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(161, isr161, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(162, isr162, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(163, isr163, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(164, isr164, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(165, isr165, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(166, isr166, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(167, isr167, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(168, isr168, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(169, isr169, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(170, isr170, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(171, isr171, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(172, isr172, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(173, isr173, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(174, isr174, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(175, isr175, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(176, isr176, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(177, isr177, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(178, isr178, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(179, isr179, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(180, isr180, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(181, isr181, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(182, isr182, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(183, isr183, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(184, isr184, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(185, isr185, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(186, isr186, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(187, isr187, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(188, isr188, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(189, isr189, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(190, isr190, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(191, isr191, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(192, isr192, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(193, isr193, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(194, isr194, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(195, isr195, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(196, isr196, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(197, isr197, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(198, isr198, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(199, isr199, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(200, isr200, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(201, isr201, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(202, isr202, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(203, isr203, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(204, isr204, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(205, isr205, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(206, isr206, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(207, isr207, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(208, isr208, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(209, isr209, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(210, isr210, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(211, isr211, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(212, isr212, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(213, isr213, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(214, isr214, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(215, isr215, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(216, isr216, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(217, isr217, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(218, isr218, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(219, isr219, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(220, isr220, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(221, isr221, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(222, isr222, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(223, isr223, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(224, isr224, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(225, isr225, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(226, isr226, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(227, isr227, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(228, isr228, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(229, isr229, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(230, isr230, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(231, isr231, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(232, isr232, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(233, isr233, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(234, isr234, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(235, isr235, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(236, isr236, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(237, isr237, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(238, isr238, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(239, isr239, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(240, isr240, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(241, isr241, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(242, isr242, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(243, isr243, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(244, isr244, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(245, isr245, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(246, isr246, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(247, isr247, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(248, isr248, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(249, isr249, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(250, isr250, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(251, isr251, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(252, isr252, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(253, isr253, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(254, isr254, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
+fill_idt_entry(255, isr255, 1, DPL_RING0 | IDT_FLAG_INT | IDT_FLAG_PRESENT);
