@@ -14,6 +14,7 @@ start:
 	call setup_page_tables
 	call enable_paging
 
+    push dword gdt64.pointer ; Will be passed to kernel_main()
 
 	lgdt [gdt64.pointer]
 	jmp gdt64.code_segment:long_mode_start

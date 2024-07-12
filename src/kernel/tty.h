@@ -1,7 +1,8 @@
 #pragma once
 
-#include <stdint.h>
-#include <stddef.h>
+#include "pch.h"
+
+#define int int // Prevent some warnings
 
 enum
 {
@@ -25,4 +26,9 @@ enum
 
 void tty_clear();
 void tty_colour(uint8_t bg, uint8_t fg);
+
+// __attribute__((no_caller_saved_registers))
 void puts(char* str);
+
+
+int print_uint64_hex(uint64_t value);
