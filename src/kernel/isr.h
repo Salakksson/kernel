@@ -4,9 +4,10 @@
 
 extern const char* exception_str[33];
 
+
 typedef struct 
 {    
-    uint64_t procseg;
+    uint64_t ds;
     uint64_t r15;
     uint64_t r14;
     uint64_t r13;
@@ -31,10 +32,14 @@ typedef struct
     uint64_t rflags;
     uint64_t rsp;
     uint64_t ss;
-} __attribute__((packed)) interrupt_frame;
+} __attribute__((packed)) cpustate;
 
-void print_interrupt_frame(interrupt_frame* frame);
+typedef void (*interrupt_handler)(cpustate* state);
 
-void global_isr_handler(interrupt_frame* frame);
+void print_cpustate(cpustate* frame);
+
+void global_isr_handler(cpustate* frame);
 
 void fill_idt();
+
+void set_interrupt_handler(uint8_t i, interrupt_handler handler);

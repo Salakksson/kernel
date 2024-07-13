@@ -4,6 +4,9 @@
 
 #define int int // Prevent some warnings
 
+#define VGA_ROWS 25
+#define VGA_COLS 80
+
 enum
 {
     BLACK = 0,
@@ -27,8 +30,7 @@ enum
 void tty_clear();
 void tty_colour(uint8_t bg, uint8_t fg);
 
-// __attribute__((no_caller_saved_registers))
 void puts(char* str);
 
+void set_cursor_position(size_t r, size_t c) ;
 
-int print_uint64_hex(uint64_t value);
