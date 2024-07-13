@@ -40,10 +40,10 @@ void set_cursor_position(size_t r, size_t c)
 
     uint16_t position = row * COLS + col;
 
-    port_outb(0x3D4, 0x0F);
-    port_outb(0x3D5, (uint8_t)(position & 0xFF));
-    port_outb(0x3D4, 0x0E);
-    port_outb(0x3D5, (uint8_t)((position >> 8) & 0xFF));
+    outb(0x3D4, 0x0F);
+    outb(0x3D5, (uint8_t)(position & 0xFF));
+    outb(0x3D4, 0x0E);
+    outb(0x3D5, (uint8_t)((position >> 8) & 0xFF));
 }
 
 static inline void clearchr(int i)

@@ -38,7 +38,7 @@ const char* exception_str[33] =
     "triple fault !!!!"
 };
 
-void print_interrupt_frame(interrupt_frame* frame)
+void print_cpustate(cpustate* frame)
 {
     printf("rax: %lu\n", frame->rax);
     printf("rbx: %lu\n", frame->rbx);
@@ -53,25 +53,32 @@ void print_interrupt_frame(interrupt_frame* frame)
     printf("ss: %lu\n", frame->ss);
 }
 
-void global_isr_handler(interrupt_frame* frame)
+interrupt_handler handlers[255];
+
+void global_isr_handler(cpustate* frame)
 {
-    if (frame->vector > 32)
+    if (handlers[frame->vector])
     {
-        printf("Unimplemented: interrupts\n");
+        handlers[frame->vector](frame);
         return;
     }
-    if (frame->procseg == 0 || 1) // currently all unhandled exceptions will panic, remove || 1 once processes are implemented  
+    if (frame->vector > 32)
     {
-        // printf("procseg: %d\n", frame->procseg);
-        panic_if(frame);
+        printf("unhandled interrupt %d", frame->vector);
+        return;
     }
-    printf("impossible case?");
-    panic_if(frame);
+    panicst(frame);
     printf("reached exception: '%s'\n", exception_str[frame->vector]);
-    print_interrupt_frame(frame);
+    print_cpustate(frame);
+}
+
+#include "idt.h" 
+
+void set_interrupt_handler(uint8_t i, interrupt_handler handler)
+{
+    handlers[i] = handler;
 }
 
 #define IMPLEMENT_INTERRUPTS
-#include "idt.h"
 #include "isr_all.h"
 

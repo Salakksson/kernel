@@ -2,6 +2,11 @@
 
 #include "pch.h"
 
-void port_outb(uint16_t port, uint8_t data);
+void outb(uint16_t port, uint8_t data);
 
-uint8_t port_inb(uint16_t port);
+uint8_t inb(uint16_t port);
+
+inline void io_wait()
+{
+    outb(0x80, 0); // unused port
+}

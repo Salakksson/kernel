@@ -2,16 +2,16 @@
 section .text
 bits 64
     
-global port_outb
-port_outb:
+global outb
+outb:
 mov dx, di
 mov ax, si
 out dx, al
 ret
 
 
-global port_inb
-port_inb:
+global inb
+inb:
 mov dx, di
 in al, dx
 movzx rax, al

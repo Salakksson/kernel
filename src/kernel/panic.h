@@ -2,4 +2,8 @@
 
 #include "isr.h" // Includes pch: tty and printf
 
-void panic_if(interrupt_frame* frame);
+void panicf(const char* msg, ...);
+
+void panicst(cpustate* frame);
+
+void panicfst(cpustate* frame, const char* msg, ...);
