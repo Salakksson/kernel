@@ -1,15 +1,16 @@
-#include "gdt.h"
-#include "idt.h"
-#include "isr.h"
-#include "keyboard.h"
-#include "picirq.h"
+#include "incl/idt.h"
+#include "incl/isr.h"
+#include "incl/keyboard.h"
+#include "incl/picirq.h"
+#include <limine.h>
 
 #define U64(a) (*(uint64_t*)(&a)) 
 
-void kernel_main(gdt_descriptor* gdt_addr)
+void kernel_main()
 {
     tty_clear();
     tty_colour(YELLOW, BLACK);
+    
     
     load_idt(&IDT_Descriptor);
     fill_idt();
